@@ -32,11 +32,6 @@ It serves as a practical foundation for my thesis on **"Credit Risk Management f
 #### 🧩 1. **Weight of Evidence (WOE) Transformation**
 Before modeling, **categorical and binned numerical features** were transformed using **Weight of Evidence (WOE)**:
 - WOE measures the **predictive power** of a feature by comparing the distribution of "good" (non-default) vs. "bad" (default) customers within each category.
-- Formula:  
-  $$
-  \text{WOE} = \ln\left(\frac{\% \text{ of non-defaults in group}}{\% \text{ of defaults in group}}\right)
-  $$
-
 All features were WOE-encoded before being used in clustering and prediction phases.
 
 #### 🧠 2. **Customer Segmentation**
